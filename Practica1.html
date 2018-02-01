@@ -52,6 +52,67 @@
         <cite>Sócrates</cite>
     </section>
 
+    <section class="Tablas">
+       <h1>Tablas</h1>
+       <table id= "TablaCal">
+            <caption> Calificaciones ISCE </caption> 
+            <thead align="center">  
+                <th> Matricula </th>   
+                <th> Nombre </th>
+                <th> Primer Parcial </th>
+                <th> Segundo Parcial </th>
+            </thead>
+        
+            <tbody align="center">
+                <tr>
+                    <td>139488</td>
+                    <td>Norberto Maya Ramirez</td>
+                    <td>100</td>
+                    <td>90</td>
+                </tr>
+
+                <tr>
+                        <td>170925</td>
+                        <td>Alan Nuñez Gonzalez</td>
+                        <td>85</td>
+                        <td>90</td>
+                </tr>
+
+                <tr>
+                        <td>170425</td>
+                        <td>Enrique Axel Avena Tapia</td>
+                        <td>95</td>
+                        <td>85</td>
+                </tr>
+
+                <tr>
+                        <td>170418</td>
+                        <td>Ricardo Flores Escobar</td>
+                        <td colspan="2">75</td>
+                </tr>
+
+                <tr>
+                        <td rowspan="2">No inscritos</td>
+                        <td>Jose Martin Lopez Villareal</td>
+                        <td>-</td>
+                        <td>-</td>
+                </tr>
+
+                <tr>
+                        <td>Francisco Perez Guevara</td>
+                        <td>-</td>
+                        <td>-</td>
+                </tr>
+
+            <tfoot >
+                <td align="center"> <mark>Promedio Final </mark></mark>
+                <td colspan="3" align="right">57.91</td>
+            </tfoot>
+        </table>
+    </section>
+    <br>
+    <br>
+
         <style>
         .section{
             background: white;
@@ -70,6 +131,21 @@
         .section #parrafo {
             color: black;
         }
+
+        table {
+           width : 100%;
+       }
+    
+       table,
+       tr,
+       th,
+       td {
+           border: 1px solid black
+       }
+
+       #TablaCal{
+            border-collapse: collapse;
+       }
         </style>
 </body>
 
